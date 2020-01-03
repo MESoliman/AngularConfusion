@@ -24,7 +24,8 @@ import { LeaderService } from './services/leader.service';
 import { LoginComponent } from './login/login.component';
 import { MatDialogModule, MatFormFieldModule,
   MatInputModule, MatCheckboxModule, MatSelectModule,
-  MatSlideToggleModule } from '@angular/material';
+  MatSlideToggleModule,
+  MatProgressSpinnerModule} from '@angular/material';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
@@ -56,7 +57,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     FormsModule,
     ReactiveFormsModule,
     MatSelectModule,
-    MatSlideToggleModule
+    MatSlideToggleModule,
+    MatProgressSpinnerModule
   ],
   providers: [
     DishService,
